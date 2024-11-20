@@ -1,0 +1,11 @@
+services:
+    jekyll:
+        image: jekyll/jekyll:latest
+        environment:
+            - "JEKYLL_GITHUB_TOKEN=${JEKYLL_GITHUB_TOKEN}"
+        ports:
+            - "4000:4000"
+        volumes:
+            - ./:/usr/src/app
+        tty: true
+        command: jekyll serve --host 0.0.0.0 --port 4000
