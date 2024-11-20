@@ -1,7 +1,9 @@
 ---
-layout: index
-title: Welcome to My Portfolio
+title: "Hello"
+summary: "About this page."
+layout: default
 ---
-# Hello World
-I'm Precious Akin, a software developer based in London, England.
 
+# Hello World
+
+I'm Precious Akin, a software developer based in London, England.
