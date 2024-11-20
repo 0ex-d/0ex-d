@@ -10,7 +10,9 @@
                         <a href="/" class="thisPage">»<i> profile</i></a>
                     </li>
                     {% for item in site.menu %}
-                    <li><a href="{{ item.url }}">{{ item.page }}</a></li>
+                    <li>
+                        <a href="{{ item.url }}">»<i> {{ item.page }}</i></a>
+                    </li>
                     {% endfor %}
                 </ul>
             </div>
