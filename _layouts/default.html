@@ -9,9 +9,16 @@
                     <li>
                         <a href="/" class="thisPage">»<i> profile</i></a>
                     </li>
+                    <li>
+                        <a href="/" class="thisPage">»<i> writeup</i></a>
+                    </li>
                     {% for item in site.menu %}
                     <li>
-                        <a href="{{ item.url }}">»<i> {{ item.page }}</i></a>
+                        <ul>
+                            <li>
+                                <a href="{{ item.url }}">»<i> {{ item.page }}</i></a>
+                            </li>
+                        </ul>
                     </li>
                     {% endfor %}
                 </ul>
