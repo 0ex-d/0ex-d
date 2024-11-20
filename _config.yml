@@ -6,4 +6,6 @@ encoding: utf-8
 locale: en_GB
 menu:
     - page: Using IPFS with Golang
-      url: /ipfsgolang
+      url: /ipfs-golang
+    - page: RPC + Rust for Arbitrum Onchain Experiment
+      url: /rpc-in-rust-experiment
