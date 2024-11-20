@@ -9,6 +9,9 @@
                     <li>
                         <a href="/" class="thisPage">»<i> profile</i></a>
                     </li>
+                    {% for item in site.menu %}
+                    <li><a href="{{ item.url }}">{{ item.page }}</a></li>
+                    {% endfor %}
                 </ul>
             </div>
         </aside>

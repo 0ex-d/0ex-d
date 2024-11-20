@@ -5,3 +5,6 @@ baseurl: ""
 url: "https://0ex-d.github.io"
 encoding: utf-8
 locale: en_GB
+menu:
+    - page: Using IPFS with Golang
+      url: /ipfs-golang
