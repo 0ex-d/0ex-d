@@ -1,9 +1,4 @@
 ---
-title: "Hello"
-summary: "About this page."
-layout: default
+title: "Precious Akin here"
+layout: profile
 ---
-
-# Hello World
-
-I'm Precious Akin, a software developer based in London, England.
